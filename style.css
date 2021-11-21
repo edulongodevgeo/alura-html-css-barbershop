@@ -1,0 +1,171 @@
+header {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(232, 41, 15, 1) 0.1%, rgba(14, 14, 13, 1) 90.1%);
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    /*background-color: blue; */
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /*background-color: crimson;*/
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /* Permite o redimensionamento sem "quebrar" */
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px 0px;
+    /*border: 2px solid #000000;
+    Exemplo de declaração unificada, todos os 3 acima em um*/
+}
+
+.produtos li:hover {
+    /* cor da borda do elemento ao passar o mouse em cima*/
+    /*border-color: tomato;
+    border-width: 40px solid;*/
+    box-sizing: border-box;
+    /* Permite o redimensionamento sem "quebrar" */
+    border-color: tomato;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.produtos li:hover h2 {
+    /* Aumenta o tamanho do elemento (h2) ao passar o mouse em cima*/
+    font-size: 35px;
+}
+
+.produtos li:active {
+    /* cor da borda do elemento ao clicar o mouse em cima*/
+    border-color: fuchsia;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+    /*font-weight: bold;*/
+}
+
+.produto-preco {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    color: whitesmoke;
+    background: url(bg.jpg);
+    /* usar uma imagem de fundo dos elementos e conteúdos*/
+    padding: 40px 0;
+}
+
+.copyright {
+    color: whitesmoke;
+    font-size: 15px;
+    margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    /*background-color: aqua;*/
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 20%;
+    padding: 10px 0;
+    background-color: darkorange;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: red;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: gray;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}

@@ -1,0 +1,104 @@
+header {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(232, 41, 15, 1) 0.1%, rgba(14, 14, 13, 1) 90.1%);
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    /*background-color: blue; */
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+
+/*Start Main - Sobre a Barbearia*/
+
+#banner {
+    width: 100%;
+}
+
+.principal h2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.principal p {
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 300px;
+}
+
+
+/*Benefícios e imagem*/
+
+.beneficios {
+    width: 940px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    color: black;
+}
+
+.beneficios ul {
+    margin: 10% 10%;
+    background: white;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.beneficios img {
+    margin: 0 auto;
+    background-color: black;
+    padding: 3px;
+}
+
+.imagembeneficios {
+    width: 50%;
+}
+
+
+/*Start Footer*/
+
+footer {
+    text-align: center;
+    color: whitesmoke;
+    background: url(bg.jpg);
+    /* usar uma imagem de fundo dos elementos e conteúdos*/
+    padding: 40px 0;
+}
+
+.copyright {
+    color: whitesmoke;
+    font-size: 15px;
+    margin: 20px 0 0;
+}
