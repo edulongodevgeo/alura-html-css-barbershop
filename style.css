@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 header {
     background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(232, 41, 15, 1) 0.1%, rgba(14, 14, 13, 1) 90.1%);
     padding: 20px 0;

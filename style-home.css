@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 header {
     background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(232, 41, 15, 1) 0.1%, rgba(14, 14, 13, 1) 90.1%);
     padding: 20px 0;
@@ -36,6 +40,21 @@ nav a:hover {
 
 /*Start Main - Sobre a Barbearia*/
 
+main {
+    margin: 0 auto;
+}
+
+.mapa {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5% 10% 20px 10%;
+    background: linear-gradient(white, black);
+}
+
+.mapa p {
+    margin: 0 0 20px 0;
+}
+
 .banner {
     width: 100%;
 }
@@ -48,7 +67,9 @@ nav a:hover {
 }
 
 .principal {
-    padding: 20px 10% 20px 10%;
+    margin: 0 auto;
+    padding: 5% 25%;
+    background-color: white;
 }
 
 .principal p {
@@ -73,37 +94,32 @@ nav a:hover {
 /*Benefícios e imagem*/
 
 .beneficios {
-    width: 940px;
-    margin: 0 auto;
-    background: white;
-    padding: 20px;
-    color: black;
+    padding: 5% 10% 5% 10%;
+    background-color: black;
+    color: whitesmoke;
 }
 
-.beneficios ul {
-    margin: 0 10%;
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
     display: inline-block;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 18px;
 }
 
-.beneficios li {
-    margin: 5px 0;
-    padding: 0 20px;
+.itens {
+    line-height: 1.5;
 }
 
-.beneficios img {
-    margin: 0 auto;
-    background-color: black;
-    padding: 3px;
+.itens::before {
+    content: "\27A5";
 }
 
-.imagembeneficios {
-    width: 30%;
+.imagem-beneficios {
+    width: 60%;
 }
 
 
@@ -121,4 +137,24 @@ footer {
     color: whitesmoke;
     font-size: 15px;
     margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa,
+    .principal,
+    .conteudo-beneficios,
+    .mapa {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+    .lista-beneficios,
+    .imagem-beneficios,
+    l {
+        width: 100%;
+    }
 }
